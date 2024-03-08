@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "tetherstrap",
+  "description": "Auto save for editable content on web pages",
+  "version": "1.0",
+  "action": {
+    "default_icon": {
+      "16": "icon_16.png",
+      "24": "icon_24.png",
+      "32": "icon_32.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "service_worker": "sw.js",
+    "type": "module"
+  }
+}
