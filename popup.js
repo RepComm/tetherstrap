@@ -1,7 +1,8 @@
 
 /**
- * @type {import("./types.d.ts")}
+ * @typedef {import("./types")}
  */
+
 
 const debug = {
   /**@type {HTMLInputElement}*/
